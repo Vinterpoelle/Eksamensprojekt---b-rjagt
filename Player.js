@@ -88,7 +88,7 @@ class Player {
   }
   
   Collision() {
-    //For-loop der sørger for at den tjekker collsion for alle           strawberries
+    //For-loop der sørger for at den tjekker collsion for alle strawberries
     for(let i = strawberries.length - 1; i >= 0; i--) {
       let strawberry = strawberries[i];
       
